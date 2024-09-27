@@ -1,0 +1,343 @@
+{
+    "review": [
+        {
+            "bookId": "book1",
+            "review": [
+                {
+                    "username": "AnaPopescu",
+                    "profile-pic": "https://i.postimg.cc/9MZVwzWF/anapopescu.png",
+                    "date": "2024-06-30T12:08Z",
+                    "rating": 5,
+                    "comment": "This book touched my heart in so many ways. Kristan Higgins has a way of creating characters that feel so real and relatable. A truly beautiful story!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "RaduIonescu",
+                    "profile-pic": "https://i.postimg.cc/Bb4mx5L6/raduionescu.png",
+                    "date": "2024-06-24T10:00Z",
+                    "rating": 4,
+                    "comment": "I devoured this book in just a few days. The story is beautifully written, and the characters stay with you long after you’ve finished reading.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "MariaDumitru",
+                    "profile-pic": "https://i.postimg.cc/9MF62jb1/mariadumitru.png",
+                    "date": "2024-04-20T08:50Z",
+                    "rating": 5,
+                    "comment": "I thoroughly enjoyed this book. The characters are relatable, and the story is both funny and touching. A great read!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "AndreiMatei",
+                    "profile-pic": "https://i.postimg.cc/kX6FHhQS/andreimatei.png",
+                    "date": "2024-04-14T10:00Z",
+                    "rating": 5,
+                    "comment": "I couldn’t put this book down. The perfect balance of humor and emotion kept me hooked from start to finish. Highly recommend!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "ElenaVlad",
+                    "profile-pic": "https://i.postimg.cc/bw2Ps8Qv/elenavlad.png",
+                    "date": "2024-04-10T16:08Z",
+                    "rating": 2,
+                    "comment": "I was excited to read this book, but unfortunately, it didn’t live up to my expectations. The story felt predictable, and I didn’t connect with the characters",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "BogdanRusu",
+                    "profile-pic": "https://i.postimg.cc/MZydZLM8/bogdanrusu.png",
+                    "date": "2024-03-31T11:00Z",
+                    "rating": 5,
+                    "comment": "`Look On the Bright Side` is everything I want in a book – engaging, heartfelt, and full of life. Kristan Higgins never disappoints.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "IoanaMihailescu",
+                    "profile-pic": "https://i.postimg.cc/W3Dp6rZM/ioanamihailescu.png",
+                    "date": "2024-03-05T06:00Z",
+                    "rating": 5,
+                    "comment": "I devoured this book in just a few days. The story is beautifully written, and the characters stay with you long after you’ve finished reading.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "AlexSorin",
+                    "profile-pic": "https://i.postimg.cc/SxjPKrb7/alexsorin.png",
+                    "date": "2024-02-10T08:55Z",
+                    "rating": 4,
+                    "comment": "I’ve enjoyed Kristan Higgins’ books before, but this one fell flat for me. The plot felt forced, and I found myself losing interest halfway through.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "SofiaGeorgescu",
+                    "profile-pic": "https://i.postimg.cc/ZYBxs5zH/sofiageorgescu.png",
+                    "date": "2024-01-22T18:40Z",
+                    "rating": 2,
+                    "comment": "This book is an absolute joy! The characters, the story, the humor – everything is perfectly balanced. It’s one of my favorite reads of the year.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "DanielMarin",
+                    "profile-pic": "https://i.postimg.cc/zXmDK0k7/danielmarin.png",
+                    "date": "2024-01-05T14:00Z",
+                    "rating": 4,
+                    "comment": "This is one of those books that stays with you. The writing is sharp, the characters are relatable, and the story is deeply moving.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "LauraCojocaru",
+                    "profile-pic": "https://i.postimg.cc/V63GZSGy/lauracojocaru.png",
+                    "date": "2024-01-02T10:08Z",
+                    "rating": 5,
+                    "comment": "This book had me laughing and crying, sometimes at the same time. It’s a wonderful story, though it didn’t completely blow me away.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "MariusDragan",
+                    "profile-pic": "https://i.postimg.cc/52Ts2QJX/mariusdragan.png",
+                    "date": "2023-12-24T17:28Z",
+                    "rating": 4,
+                    "comment": "I loved the characters in this book, and the story was engaging. There were a few slow moments, but it’s definitely worth reading.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "CristinaNicolescu",
+                    "profile-pic": "https://i.postimg.cc/3WMwwZtL/cristinanicolescu.png",
+                    "date": "2023-12-10T08:50Z",
+                    "rating": 4,
+                    "comment": "I really liked this book. It has all the elements of a great story, though it didn’t quite reach perfection for me. Still, I’d recommend it.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "BookFanatic24",
+                    "profile-pic": "https://i.postimg.cc/J7j0Tf0v/bookfanatic.png",
+                    "date": "2023-11-24T10:00Z",
+                    "rating": 2,
+                    "comment": "This book touched my heart in so many ways. Kristan Higgins has a way of creating characters that feel so real and relatable. A truly beautiful story.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "PageTurner777",
+                    "profile-pic": "https://i.postimg.cc/bw2Ps8Qv/pageturner.png",
+                    "date": "2023-11-20T16:08Z",
+                    "rating": 4,
+                    "comment": "I’ve read several books by Kristan Higgins, but this one stands out. It’s heartfelt, funny, and leaves you with a warm feeling.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "LitLover456",
+                    "profile-pic": "https://i.postimg.cc/QCVHntz3/litlover.png",
+                    "date": "2023-10-11T05:09Z",
+                    "rating": 5,
+                    "comment": "This book is a gem! The characters are so well-developed, and the story is both funny and touching. A must-read for fans of contemporary fiction.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "RoxanaIonescu",
+                    "profile-pic": "https://i.postimg.cc/K8sFJf2R/roxanaionescu.png",
+                    "date": "2023-10-10T06:00Z",
+                    "rating": 5,
+                    "comment": "`Look On the Bright Side` is a well-written and enjoyable book. The pacing was a bit slow in parts, but overall, it’s a very good read.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "StefanPavel",
+                    "profile-pic": "https://i.postimg.cc/SxjPKrb7/stefanpavel.png",
+                    "date": "2023-10-10T01:52Z",
+                    "rating": 4,
+                    "comment": "The way Higgins weaves humor and emotion together is incredible. `Look On the Bright Side` is a book I’ll be recommending to everyone.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "FictionJunkieX",
+                    "profile-pic": "https://i.postimg.cc/Hk30KJZJ/fictionjunkie.png",
+                    "date": "2023-09-05T08:40Z",
+                    "rating": 2,
+                    "comment": "I struggled to get through this book. The pacing was slow, and the characters just didn’t resonate with me. It wasn’t for me.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "ChapterChaser01",
+                    "profile-pic": "https://i.postimg.cc/zXmDK0k7/chapterchaser.png",
+                    "date": "2023-09-05T14:07Z",
+                    "rating": 2,
+                    "comment": "While I appreciate the effort, this book just didn’t work for me. The humor felt off, and the story dragged in places. Not my favorite.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "NovelExplorer88",
+                    "profile-pic": "https://i.postimg.cc/pLK4nBLw/novelexplorer.png",
+                    "date": "2023-06-24T10:00Z",
+                    "rating": 5,
+                    "comment": "From the first page to the last, this book had me completely captivated. It's an emotional rollercoaster in the best possible way.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "TomeReader1989",
+                    "profile-pic": "https://i.postimg.cc/KjnpgGZn/tomereader.png",
+                    "date": "2023-04-20T16:08Z",
+                    "rating": 2,
+                    "comment": "The story felt predictable, and I didn’t connect with the characters.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "BookBuff92",
+                    "profile-pic": "https://i.postimg.cc/9XpGzw2L/bookbuff.png",
+                    "date": "2023-01-05T14:07Z",
+                    "rating": 2,
+                    "comment": "I found the story to be slow and lacking in depth. The characters didn’t draw me in, and overall, I was left feeling underwhelmed.",
+                    "likes": 7,
+                    "dislikes": 0
+                }
+            ]
+        },
+        {
+            "bookId": "book2",
+            "review": [
+                {
+                    "username": "Emma W.",
+                    "profile-pic": "https://i.postimg.cc/W3Dp6rZM/ioanamihailescu.png",
+                    "date": "2024-01-02T10:08Z",
+                    "rating": 5,
+                    "comment": "A beautifully written book that offers simple yet profound insights into finding peace within. The chapters are short and easy to read, making it perfect for those who want a quick dose of calm in their busy lives.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "John D.",
+                    "profile-pic": "https://i.postimg.cc/52Ts2QJX/mariusdragan.png",
+                    "date": "2023-12-24T17:28Z",
+                    "rating": 3,
+                    "comment": "The book has some good tips, but it feels a bit repetitive. Decent for beginners, but not very deep.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "Sophia M.",
+                    "profile-pic": "https://i.postimg.cc/9MF62jb1/mariadumitru.png",
+                    "date": "2023-12-10T08:50Z",
+                    "rating": 5,
+                    "comment": "I was surprised by how much I resonated with this book. It's not just about meditation or mindfulness—it's about embracing a holistic approach to inner peace.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "James P.",
+                    "profile-pic": "https://i.postimg.cc/SxjPKrb7/alexsorin.png",
+                    "date": "2023-11-24T10:00Z",
+                    "rating": 2,
+                    "comment": "I had high hopes for The Book of Inner Peace, but unfortunately, it fell short of my expectations. While the premise is promising, the content felt repetitive and lacked depth.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "Izabella R.",
+                    "profile-pic": "https://i.postimg.cc/bw2Ps8Qv/elenavlad.png",
+                    "date": "2023-11-20T16:08Z",
+                    "rating": 3,
+                    "comment": "The book has its strengths, it doesn't dive as deeply into the subject as I had hoped. Some of the concepts felt a bit basic, and I was left wanting more detailed guidance on certain topics.",
+                    "likes": 7,
+                    "dislikes": 0
+                }
+            ]
+        },
+        {
+            "bookId": "book3",
+            "review": [
+                {
+                    "username": "AnaPopescu",
+                    "profile-pic": "https://i.postimg.cc/9MZVwzWF/anapopescu.png",
+                    "date": "2024-06-31T12:08Z",
+                    "rating": 5,
+                    "comment": "A brilliant fusion of Stoic philosophy and practical financial advice. This book has changed my mindset, helping me focus on what truly matters.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "RaduIonescu",
+                    "profile-pic": "https://i.postimg.cc/Bb4mx5L6/raduionescu.png",
+                    "date": "2024-06-24T10:00Z",
+                    "rating": 5,
+                    "comment": "This book is transformative. Foroux’s Stoic insights improved both my financial habits and life approach. Clear, concise, and empowering advice. A must-read!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "MariaDumitru",
+                    "profile-pic": "https://i.postimg.cc/9MF62jb1/mariadumitru.png",
+                    "date": "2024-04-10T08:50Z",
+                    "rating": 5,
+                    "comment": "The Stoic Path to Wealth offers more than just financial advice—it teaches resilience for lasting success. Foroux's engaging and clear writing makes complex ideas easy to grasp. Worth every penny!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "AndreiMatei",
+                    "profile-pic": "https://i.postimg.cc/kX6FHhQS/andreimatei.png",
+                    "date": "2024-06-24T10:00Z",
+                    "rating": 5,
+                    "comment": "This book surprised me. The mix of Stoic wisdom and financial tips is powerful. It's helped me stay calm and see positive changes.",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "ElenaVlad",
+                    "profile-pic": "https://i.postimg.cc/bw2Ps8Qv/elenavlad.png",
+                    "date": "2024-04-20T16:08Z",
+                    "rating": 5,
+                    "comment": "Foroux’s book blends ancient philosophy with modern financial wisdom. The Stoic Path to Wealth goes beyond money, offering valuable lessons on creating a meaningful life. A fantastic read!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "NovelExplorer88",
+                    "profile-pic": "https://i.postimg.cc/pLK4nBLw/novelexplorer.png",
+                    "date": "2023-06-24T10:00Z",
+                    "rating": 5,
+                    "comment": "This book offers a unique perspective on wealth that is deeply rooted in Stoic philosophy. It’s about more than just accumulating assets; it’s about mastering yourself and your desires. The practical tips and thought-provoking exercises make it a practical guide for anyone looking to improve their financial situation and life",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "TomeReader1989",
+                    "profile-pic": "https://i.postimg.cc/KjnpgGZn/tomereader.png",
+                    "date": "2023-04-20T16:08Z",
+                    "rating": 5,
+                    "comment": "Foroux’s approach to wealth-building through Stoicism is both innovative and practical. I’ve read many finance books, but none have resonated with me as much as this one. The Stoic Path to Wealth has given me the tools to stay disciplined, focused, and content, regardless of market fluctuations. A true gem!",
+                    "likes": 7,
+                    "dislikes": 0
+                },
+                {
+                    "username": "BookBuff92",
+                    "profile-pic": "https://i.postimg.cc/9XpGzw2L/bookbuff.png",
+                    "date": "2023-01-05T14:07Z",
+                    "rating": 5,
+                    "comment": "Foroux’s approach to wealth-building through Stoicism is both innovative and practical. I’ve read many finance books, but none have resonated with me as much as this one. The Stoic Path to Wealth has given me the tools to stay disciplined, focused, and content, regardless of market fluctuations. A true gem!",
+                    "likes": 7,
+                    "dislikes": 0
+                }
+            ]
+        }
+    ]
+}

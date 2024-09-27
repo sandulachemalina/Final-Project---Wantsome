@@ -1,0 +1,69 @@
+@import "reset";
+@import "colors";
+@import "typhography";
+
+.main-categories {
+    position: absolute;
+    background-color: $category-background;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    z-index: 10000;
+    width: 400px;
+    padding: 16px 16px 16px 70px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-tabs li {
+    position: relative;
+}
+
+.subcategories-menu-container {
+    display: none;
+    position: absolute;
+    background-color: $category-background;
+    top: 0;
+    left: 100%;
+    z-index: 1;
+    width: 1015px;
+    height: 293px;
+    padding: 0px 16px;
+    @include font-styles ($font-family-primary, $font-size-primary-small-16, $font-weight-primary-regular, $line-height-primary-24, normal);
+}
+
+.subcat-list {
+    list-style: none;
+    padding: 12px;
+    gap: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.subcategories-menu-container.three-columns .subcat-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.subcategories-menu-container.two-columns .subcat-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nav-tabs li:hover .subcategories-menu-container {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

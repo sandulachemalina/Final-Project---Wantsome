@@ -1,0 +1,142 @@
+@import "reset";
+@import "colors";
+@import "typhography";
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px;
+    background-color: $secondary-color;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-links li:nth-of-type(2) a,
+.nav-links li:nth-of-type(3) a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#navbar a {
+    text-decoration: none
+}
+
+.logo {
+    @include font-styles($font-family-secondary, $font-size-secondary-base, $font-weight-secondary-semibold, normal);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+}
+
+.logo svg,
+.nav-links svg {
+    padding: 0px 8px;
+}
+
+.search-section {
+    display: inline-block;
+}
+
+.search-bar {
+    position: relative;
+    width: 440px;
+}
+
+.search-bar input {
+    border-radius: 24px;
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid #F4F4F4;
+    border: none;
+    box-sizing: border-box;
+    @include font-styles($font-family-primary, $font-size-primary-small, $font-weight-primary-regular, $line-height-primary-16, normal);
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 3px 2.25px 2.25px 3px;
+}
+
+.icons-navlinks {
+    position: relative;
+}
+
+.nav-links {
+    position: relative;
+    list-style: none;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-navlinks li {
+    position: relative;
+    display: block;
+    padding: 8px;
+}
+
+#cart-count {
+    position: absolute;
+    right: 6px;
+    top: 1px;
+    background-color: $teal;
+    border-radius: 100px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2px;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    @include font-styles($font-family-primary, $font-size-primary-extra-small, $font-weight-primary-bold, $line-height-primary-1, normal);
+}
+
+.border-svg {
+    border-right: #fffbf1 solid 1px;
+}
+
+.menu-bar {
+    @include font-styles($font-family-primary, $font-size-primary-base, $font-weight-primary-regular, $line-height-primary-normal, normal);
+    background-color: $category-background;
+    color: $neutral-color-black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 70px;
+}
+
+.menu-list li {
+    margin-right: 80px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px 70px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: $neutral-color-black;
+}

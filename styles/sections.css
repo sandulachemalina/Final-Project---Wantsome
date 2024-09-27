@@ -1,0 +1,133 @@
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.facilities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 32px 70px 56px 70px;
+}
+
+.section-title {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  font-style: normal;
+  padding: 8px 0;
+  margin: 64px 70px 8px 70px;
+}
+
+.top-selling-container,
+.trending-authors-container,
+.limited-time-offers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+  margin: 0 70px 42px 70px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 8px;
+  width: 200px;
+  height: 400px;
+  padding: 8px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.product-image {
+  width: 184px;
+  height: 184px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-image img {
+  width: 114px;
+  height: 184px;
+}
+
+.details {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #222222;
+  width: 184px;
+  height: 68px;
+}
+
+.top-selling-container .card6 .rating, .trending-authors-container .card3 .rating {
+  margin-top: 3px;
+}
+
+.rating-and-price {
+  width: 184px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rating {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  text-align: left;
+  color: #6f6f6f;
+}
+
+.product-price {
+  margin-top: 4px;
+  height: 24px;
+  color: #720076;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+  text-align: left;
+}
+
+.add-to-btn {
+  width: 184px;
+  height: 48px;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 1px solid #D59ED7;
+  background-color: #D887DB;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=sections.css.map */
