@@ -1,0 +1,116 @@
+@import "colors";
+@import "typhography";
+
+a {
+    text-decoration: none;
+    color: $neutral-color-black;
+}
+
+.facilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 32px 70px 56px 70px;
+}
+
+.section-title {
+    @include font-styles($font-family-primary, $font-size-primary-extra-large, $font-weight-primary-bold, $line-height-primary-54, normal);
+    padding: 8px 0;
+    margin: 64px 70px 8px 70px;
+}
+
+.top-selling-container,
+.trending-authors-container,
+.limited-time-offers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 0 70px 42px 70px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    background-color: rgba(254, 254, 254, 1);
+    border: 1px solid rgba(239, 239, 239, 1);
+    border-radius: 8px;
+    width: 200px;
+    height: 400px;
+    padding: 8px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.product-image {
+    width: 184px;
+    height: 184px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 114px;
+    height: 184px;
+}
+
+.details {
+    @include font-styles ($font-family-primary, $font-size-primary-base, $font-weight-primary-semibold, $line-height-primary-24, normal);
+    text-align: left;
+    color: $neutral-color-black;
+    width: 184px;
+    height: 68px;
+}
+
+.top-selling-container .card6 .rating, .trending-authors-container .card3 .rating {
+    margin-top: 3px;
+}
+
+.rating-and-price {
+    width: 184px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rating {
+    @include font-styles($font-family-primary, $font-size-primary-small, $font-weight-primary-regular, $line-height-primary-21, normal);
+    display: flex;
+    align-items: center;
+    height: 24px;
+    text-align: left;
+    color: $neutral-color-grey;
+}
+
+.product-price {
+    margin-top: 4px;
+    height: 24px;
+    color: $lila;
+    @include font-styles($font-family-primary, $font-size-primary-small, $font-weight-primary-regular, $line-height-primary-21, normal);
+    text-align: left;
+}
+
+.add-to-btn {
+    width: 184px;
+    height: 48px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid $primary-color;
+    background-color: $thistle;
+    @include font-styles($font-family-primary, $font-size-primary-small, $font-weight-primary-regular, $line-height-primary-21, normal);
+}
+
+.favorite-btn {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

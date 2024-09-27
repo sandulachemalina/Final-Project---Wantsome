@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/top-bar.css">
+    <link rel="stylesheet" href="../styles/newsletter.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Aura Library - Login</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="login-container">
+        <form id="formular">
+            <div class="welcome-container">
+                <div class="welcome-message">Hello!</div>
+                <div class="guide-to-login">Enter your login details</div>
+            </div>
+
+            <div class="registration-container">
+                <div class="info-container">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email address">
+                        <span id="email-error"></span>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password">
+                        <span id="password-error"></span>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" class="login-btn">Log In</button>
+                </div>
+
+                <div class="forgot">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+
+            <div class="or-divider">
+                <p>or</p>
+            </div>
+
+            <div class="icons">
+                <button class="google-btn"><a href="#"><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_677_4804)">
+                                <path
+                                    d="M20.3042 10.2304C20.3042 9.55059 20.2491 8.86714 20.1315 8.19839H10.6992V12.0492H16.1007C15.8765 13.2912 15.1563 14.3898 14.1018 15.088V17.5866H17.3243C19.2166 15.8449 20.3042 13.2728 20.3042 10.2304Z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M10.6999 20.0007C13.397 20.0007 15.6714 19.1151 17.3286 17.5866L14.1061 15.0879C13.2096 15.6979 12.0521 16.0433 10.7036 16.0433C8.09474 16.0433 5.88272 14.2832 5.08904 11.9169H1.76367V14.4927C3.46127 17.8695 6.91892 20.0007 10.6999 20.0007Z"
+                                    fill="#34A853" />
+                                <path
+                                    d="M5.08467 11.9169C4.66578 10.6749 4.66578 9.33008 5.08467 8.08811V5.51233H1.76297C0.344635 8.33798 0.344635 11.667 1.76297 14.4927L5.08467 11.9169Z"
+                                    fill="#FBBC04" />
+                                <path
+                                    d="M10.6999 3.95805C12.1256 3.936 13.5035 4.47247 14.536 5.45722L17.3911 2.60218C15.5833 0.904587 13.1838 -0.0287217 10.6999 0.000673888C6.91892 0.000673888 3.46126 2.13185 1.76367 5.51234L5.08537 8.08813C5.87537 5.71811 8.09106 3.95805 10.6999 3.95805Z"
+                                    fill="#EA4335" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_677_4804">
+                                    <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>Continue with Google</button>
+                <button class="facebook-btn"><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_677_14411)">
+                                <path
+                                    d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z"
+                                    fill="#1877F2" />
+                                <path
+                                    d="M13.8926 12.8906L14.3359 10H11.5625V8.125C11.5625 7.33418 11.95 6.5625 13.1922 6.5625H14.4531V4.10156C14.4531 4.10156 13.3088 3.90625 12.2146 3.90625C9.93047 3.90625 8.4375 5.29063 8.4375 7.79688V10H5.89844V12.8906H8.4375V19.8785C9.47287 20.0405 10.5271 20.0405 11.5625 19.8785V12.8906H13.8926Z"
+                                    fill="#FEFEFE" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_677_14411">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>Continue with Facebook</button>
+            </div>
+            <div class="register-link">
+                <div class="register-text">Don't have an account? No worries!</div>
+                <div class="register-second-text">You can quickly create one <a href="create account.html">here</a></div>
+            </div>
+        </form>
+    </div>
+    <div id="footer"></div>
+
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+
+
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("password");
+        const form = document.getElementById("formular");
+        const email_error = document.getElementById("email-error");
+        const password_error = document.getElementById("password-error");
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            emailInput.classList.remove('valid', 'invalid');
+            passwordInput.classList.remove('valid', 'invalid');
+
+            if (emailInput.value === "" || emailInput.value == null) {
+                email_error.innerHTML = "Please enter a valid email!";
+                emailInput.classList.add('invalid');
+            } else {
+                const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if (!emailInput.value.match(emailRegex)) {
+                    email_error.innerHTML = "Please enter a valid email!";
+                    emailInput.classList.add('invalid');
+                } else {
+                    email_error.innerHTML = "Email adreess is correct!"
+                    emailInput.classList.add('valid');
+                }
+            }
+
+            const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            if (!passwordInput.value.match(passwordRegex)) {
+                password_error.innerHTML = "Please enter a valid password!";
+                passwordInput.classList.add('invalid');
+            } else {
+                password_error.innerHTML = "Password is correct!"
+                passwordInput.classList.add('valid');
+            }
+        }
+        );
+    </script>
+</body>
+
+</html>

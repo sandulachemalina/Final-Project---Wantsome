@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/top-bar.css">
+    <link rel="stylesheet" href="../styles/slideshow.css">
+    <link rel="stylesheet" href="../styles/sections.css">
+    <link rel="stylesheet" href="../styles/newsletter.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/dropdown-menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="slideshow.js"></script>
+    <script src="shopping-cart.js"></script>
+    <title>Aura Library</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="slideshow-container">
+        <div class="slider">
+            <img class="slide" src="../assets/1.png" alt="image with Ana Huang series">
+            <img class="slide" src="../assets/2.png" alt="image with Helen Hoang series">
+            <img class="slide" src="../assets/3.png" alt="image with Caroline Kepnes series">
+            <img class="slide" src="../assets/4.png" alt="image with Sarah Maas series">
+            <img class="slide" src="../assets/5.png" alt="image with Holly Black series">
+        </div>
+        <div class="slideshow-circles">
+            <span class="circle dot"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+    </div>
+    <div class="facilities">
+        <img class="benefit" src="../assets/Delivery.png" alt="delivery">
+        <img class="benefit" src="../assets/Quality.png" alt="quality">
+        <img class="benefit" src="../assets/Discounts.png" alt="discounts">
+        <img class="benefit" src="../assets/Loyality.png" alt="loyalty">
+
+    </div>
+    <div id="section"></div>
+    <div id="footer"></div>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+
+        fetch('section.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('section').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading section:', error));
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+</body>
+
+</html>

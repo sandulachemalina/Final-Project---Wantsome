@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/top-bar.css">
+    <link rel="stylesheet" href="../styles/dropdown-menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="shopping-cart.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="index.html"><div class="logo">Aura<svg width="40" height="30" viewBox="0 0 40 31" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M37.5382 25.0392L37.6555 1.28711L38.4766 1.6969V26.1312C32.0252 26.4042 26.3949 27.6328 20.7646 29.8169C24.5181 27.2233 33.3154 25.5852 37.5382 25.0392Z"
+                    fill="#D59ED7" />
+                <path
+                    d="M39.0616 26.677V1.96875L40 2.37827V27.496C33.6659 27.496 26.628 28.7246 20.4112 30.4992C24.7513 27.9055 34.3697 26.677 39.0616 26.677Z"
+                    fill="#D59ED7" />
+                <path
+                    d="M19.5911 6.55829C17.339 2.84531 7.50822 -0.81281 2.93359 0.961515C2.93359 9.01541 3.04942 24.3041 3.05207 24.3041C3.05308 24.3041 12.552 25.1232 19.5911 29.3549V6.55829Z"
+                    fill="#D59ED7" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.0412 2.47595V8.74368L27.6367 6.68302L29.2323 8.74368V1.32222C32.1352 0.494939 35.0917 0.247816 37.0676 1.01421C37.0676 9.0681 36.9518 24.3568 36.9492 24.3568C36.9482 24.3568 27.4492 25.1759 20.4102 29.4076V6.61098C21.3244 5.10367 23.4876 3.6054 26.0412 2.47595Z"
+                    fill="#D59ED7" />
+                <path
+                    d="M2.46182 24.9864L2.34452 1.23438L1.52344 1.64416V26.0785C7.97483 26.3515 13.6051 27.58 19.2354 29.7642C15.4819 27.1705 6.68455 25.5324 2.46182 24.9864Z"
+                    fill="#D59ED7" />
+                <path
+                    d="M0.938384 26.6262V1.91797L0 2.32749V27.4452C6.33409 27.4452 13.372 28.6738 19.5888 30.4484C15.2487 27.8548 5.63031 26.6262 0.938384 26.6262Z"
+                    fill="#D59ED7" />
+            </svg>Library</div></a>
+        <div class="search-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <img src="../assets/search.png" alt="search icon" class="search-icon">
+            </div>
+        </div>
+        <div class="icons-navlinks">
+            <ul class="nav-links">
+                <li class="border-svg"><a href="login.html"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                                fill="#A7E1E3" />
+                            <path
+                                d="M12 22C16.4183 22 20 19.9853 20 17.5C20 15.0147 16.4183 13 12 13C7.58172 13 4 15.0147 4 17.5C4 19.9853 7.58172 22 12 22Z"
+                                fill="#A7E1E3" />
+                        </svg></a></li>
+                <li class="border-svg"><a href="#"><svg width="24" height="24" viewBox="0 0 25 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.3085 10.668C21.3324 14.8014 15.6219 19.4654 13.3918 20.7579C12.8347 21.0807 12.1653 21.0807 11.6082 20.7579C9.37811 19.4654 3.66765 14.8014 2.69153 10.668C1.81012 6.93556 4.04708 3.05747 7.83511 3.00174C7.91331 3.00059 7.99265 3 8.07317 3C9.59809 3 10.9595 3.76167 11.7576 4.32479C12.1936 4.63244 12.8064 4.63244 13.2424 4.3248C14.0405 3.76167 15.4019 3 16.9268 3C17.0073 3 17.0867 3.00059 17.1649 3.00174C20.9529 3.05747 23.1899 6.93556 22.3085 10.668Z"
+                                fill="#A7E1E3" />
+                        </svg></a></li>
+                <li><a href="shopping-cart-page.html"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 3.25C2.58579 3.25 2.25 3.58579 2.25 4C2.25 4.41421 2.58579 4.75 3 4.75C3.81705 4.75 4.52448 5.31748 4.70172 6.11507L5.13166 8.04979C5.13478 8.09677 5.14236 8.14374 5.1545 8.19008L5.2094 8.39962L5.26786 8.6627C5.27935 8.71441 5.29593 8.76368 5.31694 8.8101L6.99211 15.2039C7.53948 17.293 9.42732 18.75 11.587 18.75H16.7506C19.3739 18.75 21.5006 16.6234 21.5006 14V11.2907C21.5006 10.7268 21.4193 10.0465 21.0367 9.44622C20.1758 8.0956 18.674 7.25 17.0314 7.25H6.49052L6.166 5.78968C5.83625 4.30578 4.5201 3.25 3 3.25Z"
+                                fill="#A7E1E3" />
+                            <path
+                                d="M18 21C18 21.5523 17.5523 22 17 22C16.4477 22 16 21.5523 16 21C16 20.4477 16.4477 20 17 20C17.5523 20 18 20.4477 18 21Z"
+                                fill="#A7E1E3" />
+                            <path
+                                d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z"
+                                fill="#A7E1E3" />
+                        </svg>
+                        <span id="cart-count">0</span>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="menu-bar">
+        <ul class="menu-list">
+            <li><a href="index.html"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.66531 8.66804L9.50212 3.99859C10.963 2.82989 13.0388 2.8299 14.4997 3.9986L20.3365 8.66804C21.3768 9.50033 21.9345 10.796 21.8239 12.1237L21.1537 20.1657C21.0673 21.2022 20.2008 21.9996 19.1606 21.9996H15.2757C13.9106 21.9996 12.9467 20.6622 13.3784 19.3671L13.6313 18.6084C14.0591 17.325 13.1038 15.9996 11.7509 15.9996C10.398 15.9996 9.4427 17.325 9.87052 18.6085L10.1234 19.3671C10.5551 20.6622 9.59116 21.9996 8.22605 21.9996H4.84116C3.80099 21.9996 2.93445 21.2022 2.84807 20.1657L2.17791 12.1237C2.06726 10.796 2.62495 9.50033 3.66531 8.66804Z"
+                            fill="#222222" />
+                    </svg></a></li>
+            <li><a href="#" class="categories-dropdown-toggle">Categories</a></li>
+            <li><a href="#recomandations">Recommendations</a></li>
+            <li><a href="#promotions">Promotions</a></li>
+            <li><a href="#news">News</a></li>
+        </ul>
+        <ul>
+            <li class="nav-item"><a href="#suport">Support</a></li>
+        </ul>
+    </nav>
+    <div class="categories-menu-container hidden" id="categories-menu">
+        <div class="categories-menu">
+            <ul class="nav-tabs">
+                <li class="main-categories"><a>Books</a><svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.7071 6.54044L14.1716 10.0049C15.7337 11.567 15.7337 14.0997 14.1716 15.6618L10.7071 19.1262C10.0771 19.7562 9 19.31 9 18.4191V7.24755C9 6.35664 10.0771 5.91048 10.7071 6.54044Z"
+                            fill="#720076" />
+                    </svg>
+                    <div class="subcategories-menu-container three-columns">
+                        <ul class="subcat-list">
+                            <li>Biography</li>
+                            <li>Children's Books</li>
+                            <li>Economics</li>
+                            <li>Fantasy</li>
+                            <li>Fiction</li>
+                            <li>Historical Fiction</li>
+                            <li>Mystery</li>
+                            <li>Non-fiction</li>
+                            <li>Poetry</li>
+                            <li>Psychology</li>
+                            <li>Romance</li>
+                            <li>Science Fiction</li>
+                            <li>Self-Help</li>
+                            <li>Thriller</li>
+                            <li>Young Adult</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="main-categories"><a>Ebooks</a><svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.7071 6.54044L14.1716 10.0049C15.7337 11.567 15.7337 14.0997 14.1716 15.6618L10.7071 19.1262C10.0771 19.7562 9 19.31 9 18.4191V7.24755C9 6.35664 10.0771 5.91048 10.7071 6.54044Z"
+                            fill="#720076" />
+                    </svg>
+                    <div class="subcategories-menu-container three-columns">
+                        <ul class="subcat-list">
+                            <li>Art & Design</li>
+                            <li>Biographies & Memoirs</li>
+                            <li>Business & Economics</li>
+                            <li>Children's Books</li>
+                            <li>Cooking, Fitness & Diets</li>
+                            <li>Dictionaries & Encyclopedias</li>
+                            <li>Entertainment</li>
+                            <li>Fiction</li>
+                            <li>General Knowledge</li>
+                            <li>History</li>
+                            <li>Home & Garden</li>
+                            <li>Medical</li>
+                            <li>Motivational Reads</li>
+                            <li>Parenting</li>
+                            <li>Travel Guides</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="main-categories"><a>Other Products</a><svg width="24" height="25" viewBox="0 0 24 25"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.7071 6.54044L14.1716 10.0049C15.7337 11.567 15.7337 14.0997 14.1716 15.6618L10.7071 19.1262C10.0771 19.7562 9 19.31 9 18.4191V7.24755C9 6.35664 10.0771 5.91048 10.7071 6.54044Z"
+                            fill="#720076" />
+                    </svg>
+                    <div class="subcategories-menu-container two-columns">
+                        <ul class="subcat-list">
+                            <li>Notebooks</li>
+                            <li>Pens & Pencils</li>
+                            <li>Planners & Agendas</li>
+                            <li>Art Supplies</li>
+                            <li>Folders & Binders</li>
+                            <li>Markers & Highlighters</li>
+                            <li>Backpacks</li>
+                            <li>Stationery Sets</li>
+                            <li>Desk Accessories</li>
+                            <li>Writing Paper & Envelopes</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script>
+        const categoriesToggle = document.querySelector('.categories-dropdown-toggle');
+        const categoriesMenu = document.getElementById('categories-menu');
+
+        categoriesToggle.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevenim comportamentul implicit al linkului
+            categoriesMenu.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', function (event) {
+            if (!categoriesMenu.contains(event.target) && !categoriesToggle.contains(event.target)) {
+                categoriesMenu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+$font-family-primary: 'Lato', sans-serif;
+$font-size-primary-base: 16px;
+$font-size-primary-extra-small: 12px;
+$font-size-primary-small: 14px;
+$font-size-primary-small-16: 16px;
+$font-size-primary-medium-20: 20px;
+$font-size-primary-medium-22: 22px;
+$font-size-primary-medium-24: 24px;
+$font-size-primary-large: 30px;
+$font-size-primary-extra-large: 36px;
+$font-weight-primary-regular: 400;
+$font-weight-primary-semibold: 600;
+$font-weight-primary-bold: 700;
+$line-height-primary-normal: normal;
+$line-height-primary-1: 1.92px;
+$line-height-primary-16: 16.8px;
+$line-height-primary-18: 18px;
+$line-height-primary-21: 21px;
+$line-height-primary-24: 24px;
+$line-height-primary-30: 30px;
+$line-height-primary-33: 33px;
+$line-height-primary-36: 36px;
+$line-height-primary-45: 45px;
+$line-height-primary-54: 54px;
+
+
+$font-family-secondary: "Fira Sans Extra Condensed", sans-serif;
+$font-size-secondary-base: 24px;
+$font-size-secondary-large: 36px;
+$font-size-secondary-extra-large: 56px;
+$font-weight-secondary-semibold: 600;
+$line-height-secondary-28: 28.8px;
+$line-height-secondary-43: 43.2px;
+$line-height-secondary-67: 67.2px;
+
+
+@mixin font-styles($family, $size, $weight, $line-height, $style: normal) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line-height;
+    font-style: $style;
+}

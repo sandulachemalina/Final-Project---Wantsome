@@ -1,0 +1,209 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 70px;
+  height: 623px;
+}
+
+.welcome-container {
+  display: flex;
+  padding: 0px 35px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.welcome-message {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  font-style: normal;
+}
+
+.guide-to-login {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  font-style: normal;
+}
+
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.info-container label {
+  display: flex;
+  width: 305px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3px;
+}
+
+input[type=email],
+input[type=password] {
+  display: flex;
+  width: 305px;
+  padding: 12px;
+  align-items: flex-start;
+  border-radius: 8px;
+  border: 1px solid #E2E2E2;
+  background-color: #fefefe;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.login-btn {
+  display: flex;
+  width: 330px;
+  height: 48px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #D59ED7;
+  background-color: #D887DB;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.forgot a {
+  display: flex;
+  width: 330px;
+  height: 40px;
+  padding: 16px 0px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  color: #720076;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+}
+
+.or-divider p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+  color: #222222;
+}
+
+.or-divider p:before,
+.or-divider p:after {
+  content: "";
+  height: 1px;
+  width: 135px;
+  background-color: #222222;
+}
+
+.or-divder p:before {
+  margin-right: 5px;
+}
+
+.or-divider p:after {
+  margin-left: 5px;
+}
+
+.icons {
+  display: flex;
+  width: 340px;
+  padding: 0px 35px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.google-btn,
+.facebook-btn {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #efefef;
+  background-color: #fefefe;
+  color: #720076;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.register-link {
+  display: flex;
+  padding: 0px 35px;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.register-text {
+  margin-top: 16px;
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.register-second-text {
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+}
+
+.register-second-text a {
+  color: #720076;
+}/*# sourceMappingURL=login.css.map */

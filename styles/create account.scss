@@ -1,0 +1,79 @@
+@import "colors";
+@import "reset";
+@import "typhography";
+
+.register-container {
+    display: flex;
+    padding: 40px 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.welcome-container {
+    display: flex;
+    padding: 0px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.welcome-message {
+    @include font-styles($font-family-primary, $font-size-primary-large, $font-weight-primary-semibold, $line-height-primary-45, normal);
+}
+
+.guide-to-register {
+    @include font-styles($font-family-primary, $font-size-primary-medium-22, $font-weight-primary-semibold, $line-height-primary-33, normal);
+}
+
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#email {
+    margin-top: 16px;
+}
+
+#email,
+#phone-number,
+#nickname,
+#password,
+#confirm-password {
+    display: flex;
+    width: 305px;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid $neutral-color-light-grey;
+    background-color: $white;
+    @include font-styles($font-family-primary, $font-size-primary-base, $font-weight-primary-regular, $line-height-primary-24, normal);
+}
+
+.register-btn {
+    display: flex;
+    width: 330px;
+    height: 48px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid $primary-color;
+    background-color: $thistle;
+    @include font-styles($font-family-primary, $font-size-primary-small, $font-weight-primary-regular, $line-height-primary-21, normal);
+    cursor: pointer;
+}
+
+#email-error, #password-error, #confirm-password-error {
+    @include font-styles($font-family-primary, $font-size-primary-small-16, $font-weight-primary-regular, $line-height-primary-21, normal);
+}

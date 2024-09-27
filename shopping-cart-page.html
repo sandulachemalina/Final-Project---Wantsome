@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon-32x32.png">
+    <link rel="stylesheet" href="../styles/shopping-cart-page.css">
+    <title>Aura Library</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <h1 class="cart-title">Shopping Cart</h1>
+    <div id="cart-items"></div>
+    <div class="summary">
+        <h2>Summary</h2>
+        <ul>
+            <li>Products (<span id="product-count">0</span>): $<span id="product-total">0.00</span></li>
+            <li>Shipping: $<span id="shipping-cost">3.05</span></li>
+            <li>Total: $<span id="total-price">0.00</span></li>
+        </ul>
+    </div>
+    <div class="voucher-section">
+        <h3>Do you have a voucher code?</h3>
+        <label>Enter your code below</label>
+        <input type="text">
+    </div>
+
+    <div class="loyalty-section">
+        <h3>Use loyalty points</h3>
+        <label>You have 0 points</label>
+        <input type="text">
+    </div>
+
+    <div class="final-total">
+        <h3>Total: $<span id="final-total-price">0.00</span></h3>
+        <button id="continue-pay">Continue and Pay</button>
+    </div>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
+</body>
+
+</html>
